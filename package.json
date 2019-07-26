@@ -1,0 +1,28 @@
+{
+  "name": "cancellable.js",
+  "version": "1.0.0",
+  "description": "Yet another simple tool for creating cancellable promise-returning/async functions.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxmaxvl/cancellable.js.git"
+  },
+  "keywords": [
+    "async/await",
+    "promise",
+    "cancellable",
+    "cancellable promises",
+    "cancellationToken",
+    "es6",
+    "js"
+  ],
+  "author": "Maks Sadowsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fxmaxvl/cancellable.js/issues"
+  },
+  "homepage": "https://github.com/fxmaxvl/cancellable.js#readme"
+}
