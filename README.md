@@ -1,5 +1,11 @@
-# cancellable.js WIP
+# cancellable.js
 Simple tool for creating cancellable promise-returning/async functions.
+
+### How to install
+
+```
+yarn add cancellable.js ## or npm install cancellable.js
+```
 
 ### How to use
 ```javascript

@@ -1,5 +1,5 @@
-const C_METHOD = Symbol('CANCELLATION_METHOD');
-const C_TOKEN  = Symbol('CANCELLATION_TOKEN');
+const C_METHOD = Symbol('C_METHOD');
+const C_TOKEN  = Symbol('C_TOKEN');
 
 export default class Cancellable {
     /**
@@ -24,7 +24,7 @@ export default class Cancellable {
     }
 
     /**
-     * @param {*|Symbol<'CANCELLATION_TOKEN'>} maybeToken
+     * @param {*|Symbol<'C_TOKEN'>} maybeToken
      * @returns {boolean}
      */
     static isCanceled(maybeToken) {
