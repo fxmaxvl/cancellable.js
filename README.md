@@ -1,4 +1,4 @@
-# cancellable.js
+# Cancellable.js
 Simple tool for creating cancellable promise-returning/async functions.
 
 ### How to install
