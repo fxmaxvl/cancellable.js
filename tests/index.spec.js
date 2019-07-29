@@ -1,6 +1,6 @@
 import Cancellable from '../src/index.js';
 
-describe('Cancellable.js tests', () => {
+describe('Cancellable.js', () => {
     describe('#create() should not affect original task\s', () => {
         it('nominal workflow', async () => {
             const taskResult   = 'some tasks result';
